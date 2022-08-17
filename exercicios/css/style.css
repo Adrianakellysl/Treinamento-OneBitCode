@@ -1,0 +1,18 @@
+body {
+    background-color: purple;
+    font-family: 'Source Serif Pro', serif;
+}
+h1, li {
+    color: #ffffff;
+}
+h3 {
+    color: #FFD700;
+}
+h2 {
+    color: #000000;
+    background: #FFD700;
+    border: 2px solid #000000;
+}
+.pontos {
+    color: #ff0000;
+}

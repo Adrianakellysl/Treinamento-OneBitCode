@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para adoção</title>
+</head>
+<body>
+    <header>
+        <a href="paginaInicial.html">Inicio</a>
+        <h1>Formulário para adoção</h1>
+        <p>Insira as informações do animal e responsável</p>
+    </header>
+    <section>
+        <form action="">
+            <div>
+                <label for="nome">Nome do animal:</label>
+                <input type="text" id="nome" required><br><br>
+                <label for="nomeResponsavel">Nome do responsável:</label>
+                <input type="text" id="NomeResponsavel" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email
+                " required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required>
+            </div>
+            <br>
+            <div>
+                <label for="caracteristica">Qual a raça do animal</label>
+                <select name="raca" id="raca">
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                </select>
+                <span>Gênero:</span>
+                <label for="f">F</label>
+                <input type="radio" id="f">
+                <label for="m">M</label>
+                <input type="radio" id="m">
+            </div><br>
+            <div>
+                <p>Fale um pouco sobre o animal</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br>
+                <label for="salvar"></label>
+                <input type="submit" id="salvar" value="Salvar cadastro">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

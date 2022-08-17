@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de animais</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <h1>Cadastro de animais para adoção</h1>
+    <form action="">
+        <div>
+            <label for="nome">Nome do animal: </label>
+            <input type="text" id="nome" class="nome"required><br>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email do responsável:</label>
+            <input type="email" id="email" class="nome" name="email">
+        </div>
+        <br>
+        <div>
+        <label for="senha1">Senha:</label>
+        <input type="password" id="senha1" class="senha" name="senha1" required>
+        <label for="data">Data de nascimento do animal:</label>
+        <input type="date" id="data" class="dataDeNascimento" name="data" required>
+        </div>
+        <br>
+        <div>
+            <label for="meuArquivo">Selecione uma imagem do animal</label>
+            <input type="file" id="meuArquivo" name="meuArquivo" class="arquivo" Nenhum arquivo selecionado>
+        </div>
+        <br>
+        <div>
+            <span class="caract">Características:</span><br>
+            <label for="carinhoso">Carinhoso</label>
+            <input type="checkbox" id="carinhoso" name="carinhoso" class="caracteristicas">
+            <label for="bravo">Bravo</label>
+            <input type="checkbox" id="bravo" name="bravo" class="caracteristicas">
+        </div>
+        <br>
+        <div>
+            <label for="raca">Qual o tipo de animal: </label>
+           <select name="raca" id="raca" class="racaDoAnimal">
+                <option value="cachorro">Cachorro</option>
+                <option value="gato">Gato</option>
+                <option value="passaros">Pássaros</option>
+           </select>
+           <span>Gênero:</span>
+           <label for="genero">F</label>
+           <input type="radio" id="genero" name="genero" value="F">
+           <label for="genero">M</label>
+           <input type="radio" id="genero" name="genero" value="M">
+        </div>
+        <br>
+        <div>
+            <textarea class="SobreAnimal" name="messagem" id="mensagem" cols="30" rows="10" placeholder="Fale um pouco sobre o animal"></textarea><br>
+            <label for="botao"></label>
+            <input type="submit" id="botao" class="botãoCadastro" value="Criar cadastro">
+        </div>
+    </form>
+</body>
+</html>

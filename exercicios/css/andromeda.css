@@ -1,0 +1,16 @@
+body {
+    background-color: 	#000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h3, p, ol {
+    color: #ffffff;
+}
+.fotoAndromeda {
+    border-radius: 8px;
+    border: 1px solid #FFFFE0;
+}
+h4 {
+    color: 	#FFFF00;
+}
+

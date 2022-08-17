@@ -1,0 +1,20 @@
+body {
+    background-color: #FFA500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color: 	#FF0000;
+}
+.tabela {
+    justify-content: center;
+    width: 50%;
+}
+.cabecalhoTabela {
+    color: #F5DEB3;
+    background-color: #696969;
+    
+}
+.corpoTabela {
+    background-color: #F5DEB3;
+    text-align: center;
+}

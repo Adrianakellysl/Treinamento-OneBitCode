@@ -1,0 +1,16 @@
+body {
+    background-color: #4682B4;
+    font-family:'Times New Roman', Times, serif;
+}
+h1 {
+    color: #FFFAFA;
+}
+.imagemNuvem {
+    border-radius: 5px;
+}
+h3 {
+    color: #B22222;
+}
+p, ol {
+    color: #FFFAFA;
+}

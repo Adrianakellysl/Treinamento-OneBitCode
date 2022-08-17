@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: #FFFF00;
+}
+.imagemOlhoNegro {
+    border-radius: 5px;
+    border: 1px solid #FFD700;
+}
+p, ol{
+    color: #FFFFE0;
+}
